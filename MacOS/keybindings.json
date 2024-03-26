@@ -157,8 +157,16 @@
       "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
     },
     {
-      "command": "-vscode-neovim.send",
-      "key": "ctrl+e"
+      "command": "vscode-neovim.send",
+      "key": "ctrl+e",
+      "when": "editorTextFocus && neovim.ctrlKeysNormal.e && neovim.init && neovim.mode != 'insert' && editorLangId not in 'neovim.editorLangIdExclusions'",
+      "args": "<C-e>"
+    },
+    {
+      "command": "vscode-neovim.send",
+      "key": "ctrl+y",
+      "when": "editorTextFocus && neovim.ctrlKeysNormal.e && neovim.init && neovim.mode != 'insert' && editorLangId not in 'neovim.editorLangIdExclusions'",
+      "args": "<C-y>"
     }
   ]
   
