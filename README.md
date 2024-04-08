@@ -28,13 +28,11 @@
 | Move Line Down | opt + down | |
 | Refactor | ctrl + shift + r | |
 | 列出 symbol 列表 | shift + cmd + . | |
-| Search Editor: Focus Next SEarch Result | F4 | |
+| Search Editor: Focus Next Search Result | F4 | |
 | Set Selection Anchor | cmd+k cmd+b | |
 | | cmd+k cmd+k | |
 | Snippet search | shift + cmd + r| |
 | Toggle Vertical/Horizontal Editor Layout | opt + cmd + 0| |
-| ? Previous Tab | ctrl + t | |
-| ? 删除到行首 | shift + cmd + space | |
 | Trim Trailing Whitespace | cmd+k cmd+x| |
 | View: Close All Editors | cmd+k cmd+w | |
 | View: Close All Editors in Group | cmd+k w | |
