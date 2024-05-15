@@ -52,6 +52,7 @@
 | Multiple Selections | Opt + Click 或者 ⌥⌘↓| | 
 | Expand Selection | Ctrl + Shift + ArrowRight | |
 | Column Selection | Shift + Opt + Click | |
+| Markdown: Open Preview| Shift + Cmd + V | |
 
 
 ### Terminal
